@@ -1,9 +1,12 @@
 import lv1.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        DivisibleArrayOfNum d = new DivisibleArrayOfNum();
-        int[] arr = {3, 2, 6};
-        System.out.println(d.solution(arr, 10));
+        AddPlusMinus a = new AddPlusMinus();
+        int[] absolutes = {4, 7, 12};
+        boolean[] signs = {true, false, true};
+        System.out.println(a.solution(absolutes, signs));
     }
 }
