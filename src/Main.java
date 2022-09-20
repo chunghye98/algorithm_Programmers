@@ -4,9 +4,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        AddPlusMinus a = new AddPlusMinus();
-        int[] absolutes = {4, 7, 12};
-        boolean[] signs = {true, false, true};
-        System.out.println(a.solution(absolutes, signs));
+        RetString r = new RetString();
+        System.out.println(r.solution(3));
+        System.out.println(r.solution(4));
     }
 }
