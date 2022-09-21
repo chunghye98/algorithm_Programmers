@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        NumOfK n = new NumOfK();
-        int[] array = {1, 5, 2, 6, 3, 7, 4};
-        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
-        System.out.println(n.solution(array, commands));
+        DotProduct d = new DotProduct();
+        int[] a = {1,2,3,4};
+        int[] b = {-3, -1, 0, 2};
+        System.out.println(d.solution(a, b));
     }
 }
