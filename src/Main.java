@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Star s = new Star();
-        s.solution();
+        CalculateAmount c = new CalculateAmount();
+        System.out.println(c.solution(3, 20, 4));
     }
 }
