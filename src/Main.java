@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        StrangeString s = new StrangeString();
-        System.out.println(s.solution("try hello world"));
+        GreatestCommonFactor g = new GreatestCommonFactor();
+        System.out.println(Arrays.toString(g.solution(3, 12)));
+        System.out.println(Arrays.toString(g.solution(2, 5)));
     }
 }
