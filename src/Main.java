@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Budget b = new Budget();
-        int[] d = {1, 3, 2, 5, 4};
-        int budget = 9;
-        System.out.println(b.solution(d, budget));
+        Caesar c = new Caesar();
+//        System.out.println(c.solution("AB", 1));
+//        System.out.println(c.solution("a B z", 4));
+        System.out.println(c.solution("P", 15));
     }
 }
